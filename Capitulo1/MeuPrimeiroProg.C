@@ -29,3 +29,60 @@ main()
 {
     printf("C \n is the greatest \n Language");
 }
+
+/*
+    Lista de Caracteres Especiais :
+
+    \7 : bell
+    \a : bell
+    \b : back-space
+    \n : new-line
+    \r : return 
+    \t : tabulação horizontal
+    \v : tabulação vertical
+    \\ : caractere
+    \' : aspas-simples
+    \" : aspas
+    \? : caracetere ?
+    \ooo : ASCII Octal
+    %% : caractere %
+*/
+
+// Isso é um comentário
+
+/* Isso tambem é um comentário ! */
+
+/* Exercício Resolvido (N1) : 
+    Escreva um programa em C que tenha essa saída :
+
+    1 -     Clientes
+    2 -     Fornecedores
+    3 -     Faturas
+
+    0 -     Sair
+*/
+
+// Solução (N1) :
+#include <stdio.h>
+
+main()
+{
+    printf("1 - \tClientes\n"); // o \t coloca uma tabulação
+    printf("2 - \tFornecedores\n");
+    printf("3 - \tFaturas\n\n"); // o segundo \n é para pular novamente de linha
+    printf("0 - \tSair");
+}
+
+/* Exercício Resolvido (N2) : 
+    Escreva um programa em C que tenha essa saída :
+
+    "Aqui vai um apito", ouvindo-se no final um bell.
+*/
+
+// Solução (N2) :
+#include <stdio.h>
+
+main()
+{
+    printf("Aqui vai um apito \a \n"); // \a --> faz o som de 'beep' no final
+}
