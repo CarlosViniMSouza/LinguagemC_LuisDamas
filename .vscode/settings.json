@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "TiposDados-Parte1.C": "cpp",
-        "MeuPrimeiroProg.C": "cpp"
+        "MeuPrimeiroProg.C": "cpp",
+        "Testes_E_Condicoes_Parte3.C": "cpp"
     }
 }
