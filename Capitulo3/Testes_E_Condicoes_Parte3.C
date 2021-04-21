@@ -44,5 +44,69 @@ main()
     Comando 'break' :
 
     Esse comando permite a finalização da execução do programa. Uma vez que a instrução foi feita, 
-a execuçao é interrompida.  
+a execuçao é interrompida. 
 */
+
+/*
+    Vejamos a resolção de 3 exercícios relacionados ao capítulo 3 :
+
+    EXERCÍCIO (N1) : Escreva um programa que identifica se um determinado número é :
+
+    -> Positivo;
+    -> Negativo;
+    -> Igual a 0;
+*/
+
+#include <stdio.h>
+
+int number;
+main()
+{
+    printf("Digite qualquer inteiro : ");
+    scanf("%d", &number);
+    if( number > 0 ) {
+        printf("Temos um número positivo");
+    } else if ( number < 0 ) {
+        printf("Temos um número negativo");
+    } else {
+        printf("Esse número é 0");
+    }
+}
+
+/*
+    EXERCÍCIO (N2) : Reescreva o programa anteiror, só que, usando switch() : 
+*/
+
+#include <stdio.h>
+
+int number;
+main()
+{
+    printf("Digite qualquer inteiro : ");
+    scanf("%d", &number);
+
+    switch(number){
+
+        case 'number > 0' : printf("Temos um número positivo");
+        case 'number < 0' : printf("Temos um número negativo");
+        default : printf("Esse número é 0");
+        // o código está errado. LOL !
+    }
+}
+
+/*
+    EXERCÍCIO (N3) : Crie um programa que indica quantos segundo tem 'x' horas ! 
+*/
+
+#include <stdio.h>
+
+int hours; 
+long int seg;
+
+main()
+{
+    printf("Digite a quant. de horas : ");
+    scanf("%d", &hours);
+    seg = hours * 3600;
+    printf("%d tem %ld", hours, seg);
+}
