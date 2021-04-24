@@ -6,6 +6,7 @@
         "Introducao.C": "cpp",
         "Filosofia_Extras.C": "cpp",
         "test_switch.C": "cpp",
-        "Lacos-Parte1.C": "cpp"
+        "Lacos-Parte1.C": "cpp",
+        "Lacos-Parte2.C": "cpp"
     }
 }
