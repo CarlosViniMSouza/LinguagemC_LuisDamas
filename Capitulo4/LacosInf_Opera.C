@@ -31,7 +31,7 @@ main(){
 }
 
 /*
-    Operadores ++ e --
+    Operadores ++ e -- :
 
     A linguagem C apresenta 2 operadores unários que permitem incrementação e decrementação
 de uma variável (não podendo ser usado em constantes !). A tabela abaixo explica melhor :
@@ -54,3 +54,12 @@ main(){
         i++;
     }
 }
+
+/*
+    Diferença entre ++x e x++ :
+
+    y = x++ --> O que acontece(em sequência):   |    y = ++x --> O que acontece(em sequência):
+                                                |
+    1 - x é atribuído a y;                      |    1 - o valor de x é incrementado;
+    2 - o valor de x é incrementado;            |    2 - x é atribuído a y;
+*/
