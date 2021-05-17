@@ -78,6 +78,6 @@ main(){
 
     NOTA (N3) : Dica -> Muitos programadores colocam as Constantes Simbolicas em Maiusculas;
 
-    Matrizes e Vetores Multidimensionais :
+    // Na próxiama parte veremos: Matrizes e Vetores Multidimensionais
 
 */
