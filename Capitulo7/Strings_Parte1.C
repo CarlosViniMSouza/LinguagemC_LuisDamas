@@ -77,7 +77,8 @@ main(){
 
 char nome[76];
 
-main(){
+main()
+{
     printf("digite seu nome: "); gets(nome);
     puts(nome);
 }
