@@ -23,4 +23,19 @@
     8 --> int strpal(char *s) --> Verifica se a string s é ou não Palindroma (retorn TRUE ou FALSE)
 
     9 --> char *strrev(char *s) --> Inverte a string s e retorna-a invertida ao mesmo tempo
+
+    10 --> int strcmp(char *s1, char s2) --> Compara alfabeticamente as strings s1 e s2
+
+    Retornando no formato de inteiros as seguintes respostas: 
+    
+        < 0 : s1 é alfabeticamente menos que s2
+        0   : são iguais.
+        > 0 : s1 é alfabeticamente maior que s2
+
+    11 --> char *strpad(char *s) --> Coloca um <ESPACE> entre cada caractere da string
+
+    12 --> char *strdelc(char *s, char ch) --> Remove todas as 'ch' da string s
+
+    // Na proxima lição, iniciaremos o estudo dos Ponteiros - Capítulo 8
+
 */
