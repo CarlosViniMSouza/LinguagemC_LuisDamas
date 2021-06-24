@@ -18,7 +18,8 @@
         "Vetores_Parte2.C": "cpp",
         "Vetores_Parte3.C": "cpp",
         "Strings_Parte1.C": "cpp",
-        "Strings_Parte2.C": "cpp"
+        "Strings_Parte2.C": "cpp",
+        "Tarefa.C": "cpp"
     },
     "discord.enabled": true
 }
