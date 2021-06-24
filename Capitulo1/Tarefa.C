@@ -1,4 +1,4 @@
-// Identifique os erros nos 3 programas abaixo:
+// Q.1: Identifique os erros nos 3 programas abaixo:
  
 #include <stdio.h>
 
@@ -21,3 +21,11 @@ main(){
     print ("Now, the error is the command printf");
 
 }
+
+/**
+ * Q.2: Os comentarios devem ser feitos no código quando:
+ * 
+ * resp.: Quando o programador achar necessário ou conveniente;
+ * 
+ * Q.3: Um programa em C,
+**/
