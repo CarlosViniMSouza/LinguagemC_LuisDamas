@@ -10,7 +10,7 @@ letras maiúsculas de minúsculas.
 
 #include <stdio.h> //inclui funções de input e exit
 
-main() //inicialização do programa
+int main() //inicialização do programa
 { // o programa começa a receber instruções
     printf("Hello World \n"); //a instrução de printar a frase 'Hello World'
 } // aqui o programa encerra o recebimento de instruções
@@ -21,16 +21,15 @@ main() //inicialização do programa
     is the greatest
     Language
 */
-
+/*
 // Solução :
 #include <stdio.h>
 
-main()
+int main()
 {
     printf("C \n is the greatest \n Language");
 }
 
-/*
     Lista de Caracteres Especiais :
 
     \7 : bell
@@ -62,6 +61,7 @@ main()
     0 -     Sair
 */
 
+/*
 // Solução (N1) :
 #include <stdio.h>
 
@@ -72,6 +72,7 @@ main()
     printf("3 - \tFaturas\n\n"); // o segundo \n é para pular novamente de linha
     printf("0 - \tSair");
 }
+*/
 
 /* Exercício Resolvido (N2) : 
     Escreva um programa em C que tenha essa saída :
@@ -79,6 +80,7 @@ main()
     "Aqui vai um apito", ouvindo-se no final um bell.
 */
 
+/*
 // Solução (N2) :
 #include <stdio.h>
 
@@ -86,3 +88,4 @@ main()
 {
     printf("Aqui vai um apito \a \n"); // \a --> faz o som de 'beep' no final
 }
+ */

@@ -1,0 +1,3 @@
+C:/Users/CarlosViniMSouza/Documents/Programacao/Programacao_C/Projeto-Livro/LinguagemC_LuisDamas/cmake-build-debug/CMakeFiles/LinguagemC_LuisDamas.dir
+C:/Users/CarlosViniMSouza/Documents/Programacao/Programacao_C/Projeto-Livro/LinguagemC_LuisDamas/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/CarlosViniMSouza/Documents/Programacao/Programacao_C/Projeto-Livro/LinguagemC_LuisDamas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
